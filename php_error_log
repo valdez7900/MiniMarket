@@ -1,0 +1,354 @@
+[16-Nov-2022 18:03:43 Europe/Berlin] PHP Warning:  include(modules/principal.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php on line 21
+[16-Nov-2022 18:03:43 Europe/Berlin] PHP Warning:  include(): Failed opening 'modules/principal.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php on line 21
+[19-Nov-2022 21:11:52 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\menu.php on line 15
+[19-Nov-2022 21:12:05 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\menu.php on line 15
+[19-Nov-2022 21:25:42 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:25:42 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:25:42 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:25:42 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:25:42 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:25:42 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:25:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(153): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:27:01 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:27:01 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:27:01 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:27:01 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:27:01 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:27:01 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:27:01 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(230): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:27:36 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:27:36 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:27:36 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:27:36 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:27:36 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:27:36 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:27:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(206): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:27:51 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:27:51 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:27:51 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:27:51 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:27:51 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:27:51 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:27:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(206): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:28:04 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:28:04 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:28:04 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:28:04 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:28:04 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:28:04 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:28:04 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(207): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:28:15 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:28:15 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:28:15 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:28:15 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:28:15 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:28:15 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:28:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(206): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:28:40 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:28:40 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:28:40 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:28:40 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:28:40 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:28:40 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:28:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(210): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:28:57 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:28:57 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:28:57 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:28:57 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:28:57 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:28:57 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:28:57 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(208): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:29:15 Europe/Berlin] PHP Warning:  Undefined array key "nameLast" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 59
+[19-Nov-2022 21:29:15 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 61
+[19-Nov-2022 21:29:15 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 71
+[19-Nov-2022 21:29:15 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 73
+[19-Nov-2022 21:29:15 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 78
+[19-Nov-2022 21:29:15 Europe/Berlin] PHP Warning:  Undefined array key "idUser" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 80
+[19-Nov-2022 21:29:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(205): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:49:01 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\administradores.php on line 60
+[19-Nov-2022 21:49:01 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(178): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:49:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(173): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:49:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(173): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:50:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(173): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:51:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(173): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:52:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(173): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:53:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(174): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 21:54:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'minimarket.pathsudo' doesn't exist in C:\xampp\htdocs\miniMarket\models\config.modelo.php:32
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\config.modelo.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\config.controlador.php(18): ModeloConfig::mdlMostrarRutas('pathsudo', NULL, NULL)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(184): ControladorConfig::ctrMostrarRutas(NULL, NULL)
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\config.modelo.php on line 32
+[19-Nov-2022 22:12:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:12:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:12:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:12:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:12:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:12:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:12:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:12:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$_GET" in C:\xampp\htdocs\miniMarket\views\plantilla.php on line 121
+[19-Nov-2022 22:25:45 Europe/Berlin] PHP Warning:  require_once(controllers/config.controlador.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\miniMarket\index.php on line 16
+[19-Nov-2022 22:25:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/config.controlador.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\miniMarket\index.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\miniMarket\index.php on line 16
+[19-Nov-2022 22:46:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idcontraUsuario' in 'where clause' in C:\xampp\htdocs\miniMarket\models\usuarios.modelo.php:86
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\usuarios.modelo.php(86): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\usuarios.controlador.php(151): ModeloUsuarios::mdlEditarAdmin('usuarios', Array)
+#2 C:\xampp\htdocs\miniMarket\views\modules\administradores.php(181): ControladorUsuarios::ctrEditarAdmin()
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(24): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\usuarios.modelo.php on line 86
+[19-Nov-2022 22:52:28 Europe/Berlin] PHP Warning:  Undefined array key "nosotros" in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 55
+[19-Nov-2022 22:52:28 Europe/Berlin] PHP Warning:  Undefined array key "nosotros" in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 55
+[19-Nov-2022 22:54:55 Europe/Berlin] PHP Warning:  Undefined array key "nosotros" in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 55
+[19-Nov-2022 22:54:55 Europe/Berlin] PHP Warning:  Undefined array key "nosotros" in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 55
+[19-Nov-2022 23:14:50 Europe/Berlin] PHP Fatal error:  Cannot declare class ControladorUsuarios, because the name is already in use in C:\xampp\htdocs\miniMarket\controllers\nosotros.controlador.php on line 3
+[19-Nov-2022 23:49:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorNosotros::ctrCrearANosotros() in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php:117
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include()
+#1 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\index.php(26): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 117
+[19-Nov-2022 23:50:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ModeloNosotros::mdlCrearNosotros() in C:\xampp\htdocs\miniMarket\controllers\nosotros.controlador.php:33
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\modules\nosotros.php(117): ControladorNosotros::ctrCrearNosotros()
+#1 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\miniMarket\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\miniMarket\controllers\nosotros.controlador.php on line 33
+[20-Nov-2022 00:32:30 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\miniMarket\controllers\nosotros.controlador.php on line 129
+[20-Nov-2022 00:35:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorNosotros::ctrCrearNosotros() in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php:115
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include()
+#1 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\index.php(26): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 115
+[20-Nov-2022 00:35:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorNosotros::ctrCrearNosotros() in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php:115
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include()
+#1 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\index.php(26): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 115
+[20-Nov-2022 00:35:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorNosotros::ctrCrearNosotros() in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php:111
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include()
+#1 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\index.php(26): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\nosotros.php on line 111
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "fotoArticulo" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 60
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 70
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 72
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "idArticulo" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 77
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "idArticulo" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 79
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "fotoArticulo" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 60
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 70
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 72
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "idArticulo" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 77
+[20-Nov-2022 01:05:18 Europe/Berlin] PHP Warning:  Undefined array key "idArticulo" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 79
+[20-Nov-2022 01:07:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorArticulos::ctrMostrarUsuarios() in C:\xampp\htdocs\miniMarket\views\modules\articulos.php:52
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include()
+#1 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 52
+[20-Nov-2022 01:09:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ControladorConfig" not found in C:\xampp\htdocs\miniMarket\views\modules\articulos.php:152
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include()
+#1 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 152
+[20-Nov-2022 01:23:49 Europe/Berlin] PHP Warning:  Undefined array key "passAdmin" in C:\xampp\htdocs\miniMarket\controllers\articulos.controlador.php on line 51
+[20-Nov-2022 01:24:15 Europe/Berlin] PHP Warning:  Undefined array key "nombreUsuario" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 58
+[20-Nov-2022 01:24:15 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 62
+[20-Nov-2022 01:24:15 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 70
+[20-Nov-2022 01:24:15 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 72
+[20-Nov-2022 01:25:00 Europe/Berlin] PHP Warning:  Undefined array key "pic" in C:\xampp\htdocs\miniMarket\views\modules\articulos.php on line 62
+[20-Nov-2022 01:25:45 Europe/Berlin] PHP Warning:  Undefined array key "passAdmin" in C:\xampp\htdocs\miniMarket\controllers\articulos.controlador.php on line 51
+[20-Nov-2022 01:26:22 Europe/Berlin] PHP Warning:  Undefined array key "passAdmin" in C:\xampp\htdocs\miniMarket\controllers\articulos.controlador.php on line 51
+[20-Nov-2022 01:46:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idUsuario' in 'where clause' in C:\xampp\htdocs\miniMarket\models\articulos.modelo.php:84
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\models\articulos.modelo.php(84): PDOStatement->execute()
+#1 C:\xampp\htdocs\miniMarket\controllers\articulos.controlador.php(144): ModeloArticulos::mdlEditarAdmin('articulos', Array)
+#2 C:\xampp\htdocs\miniMarket\views\modules\articulos.php(248): ControladorArticulos::ctrEditarArticulo()
+#3 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\miniMarket\index.php(28): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\miniMarket\models\articulos.modelo.php on line 84
+[20-Nov-2022 02:26:44 Europe/Berlin] PHP Warning:  require_once(models/listaArticulos.modelo.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\miniMarket\index.php on line 26
+[20-Nov-2022 02:26:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'models/listaArticulos.modelo.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\miniMarket\index.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\miniMarket\index.php on line 26
+[20-Nov-2022 02:27:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorLista::mdlMostrarListaClientes() in C:\xampp\htdocs\miniMarket\views\modules\listaProductos.php:44
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\views\plantilla.php(123): include()
+#1 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(23): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\miniMarket\index.php(29): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\listaProductos.php on line 44
+[20-Nov-2022 02:37:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorLista::ctrCrearListaArticulos() in C:\xampp\htdocs\miniMarket\views\modules\frmDomicilio.php:54
+Stack trace:
+#0 C:\xampp\htdocs\miniMarket\controllers\plantilla.controlador.php(12): include()
+#1 C:\xampp\htdocs\miniMarket\index.php(29): ControladorPlantilla::ctrPlantilla()
+#2 {main}
+  thrown in C:\xampp\htdocs\miniMarket\views\modules\frmDomicilio.php on line 54
